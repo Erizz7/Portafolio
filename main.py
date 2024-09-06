@@ -9,6 +9,6 @@ mi_ventana.geometry("500x600")
 
 #Crear un texto
 etiqueta = tk.Label(mi_ventana, text="Hola mundo")
-etiqueta.pack(side=50)
+etiqueta.pack()
 mi_ventana.mainloop()
  
